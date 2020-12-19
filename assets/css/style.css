@@ -49,6 +49,9 @@ nav {
   text-transform: capitalize;
   min-width: var(--nav-button-width);
   max-width: var(--nav-button-width);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .sub-nav-list {
