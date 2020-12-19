@@ -4,6 +4,7 @@
 }
 
 :root {
+  --nav-button-width: 150px;
   --nav-button-border-size: 1px;
 }
 
@@ -46,7 +47,8 @@ nav {
   padding: 10px 30px;
   text-align: center;
   text-transform: capitalize;
-  min-width: 150px;
+  min-width: var(--nav-button-width);
+  max-width: var(--nav-button-width);
 }
 
 .sub-nav-list {
