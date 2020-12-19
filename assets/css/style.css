@@ -42,9 +42,8 @@ nav {
 }
 
 .link {
-  display: inline-block;
+  display: block;
   padding: 10px 30px;
-  width: 100%;
   text-align: center;
   text-transform: capitalize;
   min-width: 150px;
